@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../src/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Exile&family=Mystery+Quest&family=Oregano:ital@0;1&display=swap" rel="stylesheet">
     <title>Recipes</title>
 </head>
 <body>
@@ -14,16 +17,21 @@
 </header>
 <main>
     <form>
-        <input type="text" placeholder="what do you want to eat?" required autofocus/>
-        <input type="submit" />
+        <input type="text" placeholder="what do you want to eat?" required autofocus autocomplete="off"/>
+        <input type="submit" id="button"/>
     </form>
-    <div>
-       <p> The recipe will go here</p>
+    <div class="recipe">
+       <p> The recipe will go here:<br/>
+        1. steam your meat.<br/>
+        2. wash and cut your vegetables.<br/>
+        3. put everything in a pot and stir.
+       </p>
     </div>
 </main>
     <footer>
-        <p>This project is coded by <a href="https://github.com/ugo-reg"> ugochi ibe</a>
-             and is opensourced on <a href="https://github.com/ugo-reg/Pastry-generator" target="_blank">github</a> and is hosted on <a href="https://ugochis-pastry-generator.netlify.app/"> netlify</a></p>
+        <p>This project is coded by <a href="https://github.com/ugo-reg" target="_blank"><strong> Ugochi Ibe</strong></a>
+             and is opensourced on <a href="https://github.com/ugo-reg/Pastry-generator" target="_blank"><strong>GitHub</strong></a> and is hosted on
+              <a href="https://ugochis-pastry-generator.netlify.app/" target="_blank"><strong> Netlify</strong></a></p>
     </footer>
 
 </div>
