@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../src/style.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Exile&family=Mystery+Quest&family=Oregano:ital@0;1&display=swap" rel="stylesheet">
-    <title>Recipes</title>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<title>Recipes</title>
 </head>
 <body>
     <div class="container">
@@ -16,11 +18,11 @@
     <p> Where your tummy is filled.</p>
 </header>
 <main>
-    <form>
+    <form id="form">
         <input type="text" placeholder="what do you want to eat?" required autofocus autocomplete="off"/>
         <input type="submit" id="button"/>
     </form>
-    <div class="recipe">
+    <div class="recipe" id="recipe">
        <p> The recipe will go here:<br/>
         1. steam your meat.<br/>
         2. wash and cut your vegetables.<br/>
