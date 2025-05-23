@@ -14,7 +14,7 @@ function cook(event){
  event.preventDefault();
  let instructionInput = document.querySelector("#user-instruction");
  let recipe=document.querySelector("#recipe");
- recipe.innerHTML= `cooking your recipe🍜🥢 for ${instructionInput.value}....`;
+ recipe.innerHTML = `<span class="loader">🕢</span>cooking your recipe🍜🥢 for ${instructionInput.value}....`;
  let show=document.querySelector(".hidden");
  show.classList.remove("hidden");
 
